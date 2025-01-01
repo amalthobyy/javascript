@@ -7,7 +7,7 @@ for (let i=0;i<words.length;i++){
     for (let j=words[i].length-1;j>=0;j--){
         reverse +=words[i][j];
     }
-    result +=reverse+(i<words.length-1? " ":"");
+    result +=reverse+(i<words.length-1," ");
 }
 
 console.log(result);
